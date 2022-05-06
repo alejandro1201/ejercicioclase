@@ -1,6 +1,8 @@
 m = []
-n = int(input('Digite un numero : '))
+n = int(input('Digite un limite : '))
 
 for i in range(n):
-    m.append(n**3)
+    lista=[]
+    li=int(input('Digite los numeros a sacar la potencia: '))
+    m.append(li**3)
 print(m)
